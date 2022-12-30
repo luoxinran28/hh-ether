@@ -1,0 +1,24 @@
+{
+  "name": "hh-ether",
+  "version": "1.0.0",
+  "description": "A web3 playground to test Hardhat, Ganache, Chainlink, Metamask, IPFS and Ethereum.",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o ./output SimpleStorage.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxinran28/hh-ether.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoxinran28/hh-ether/issues"
+  },
+  "homepage": "https://github.com/luoxinran28/hh-ether#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "solc": "0.8.7-fixed"
+  }
+}
